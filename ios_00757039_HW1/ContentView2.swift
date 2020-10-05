@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView2: View {
     struct Eye: Shape{
         func path(in rect:CGRect) -> Path{
             Path{(path) in
@@ -19,7 +19,6 @@ struct ContentView: View {
         }
     }
     var body: some View {
-        NavigationView{
         ZStack{
             ZStack{
                 Image("sand")
@@ -27,15 +26,13 @@ struct ContentView: View {
                     .scaledToFill()
                     .frame(minWidth:0, maxWidth: .infinity)
                     .edgesIgnoringSafeArea(.all)
-                NavigationLink(
-                destination: ContentView2()){
-                Text("I'm spike!")
+                Text("I'm on fire!")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
-                    .foregroundColor(Color.black)
+                    .foregroundColor(Color.red)
                     .frame(width: 200, height: 150)
                     .position(x:165, y:430)
-                }
+                
             }
             Path { (path) in
                 path.move(to: CGPoint(x: 215, y: 130))
@@ -198,7 +195,7 @@ struct ContentView: View {
                 path.closeSubpath()
                 
                 
-            }.fill(Color.red)
+            }.fill(Color.yellow)
             
             Path{(path) in
                 path.move(to: CGPoint(x: 260, y: 230))
@@ -228,7 +225,7 @@ struct ContentView: View {
                                     CGPoint(x: 260, y: 280))
                 path.closeSubpath()
                 
-            }.fill(Color.green)
+            }.fill(Color.red)
             Eye()
                 .fill()
                 .frame(width: 40, height: 40)
@@ -274,7 +271,7 @@ struct ContentView: View {
                 path.move(to: CGPoint(x:87, y: 170))
                 path.addQuadCurve(to: CGPoint(x: 83, y: 180), control:
                                     CGPoint(x: 65, y: 150))
-            }.fill(Color(red:0, green:120/255, blue:0))
+            }.fill(Color.yellow)
             Path{(path) in
                 path.move(to: CGPoint(x:78, y: 300))
                 path.addQuadCurve(to: CGPoint(x: 148, y: 310), control:
@@ -366,7 +363,7 @@ struct ContentView: View {
                                         CGPoint(x:300, y: 240))
                     path.addQuadCurve(to: CGPoint(x: 260, y: 205), control:
                                         CGPoint(x:266, y: 198))
-                }.fill(Color.green)
+                }.fill(Color.red)
                 Path{(path) in
                     path.move(to: CGPoint(x:65, y:220))
                     path.addQuadCurve(to: CGPoint(x: 55, y: 295), control:
@@ -383,14 +380,13 @@ struct ContentView: View {
                     path.move(to: CGPoint(x:277, y:215))
                     path.addQuadCurve(to: CGPoint(x: 270, y: 205), control:
                                         CGPoint(x:290, y: 180))
-                }.fill(Color(red:0, green:120/255, blue:0))
+                }.fill(Color.yellow)
             }
         }
     }
-    }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView2_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

@@ -13,6 +13,8 @@
 		493E17D1251CCE1000012FC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493E17D0251CCE1000012FC2 /* Preview Assets.xcassets */; };
 		493E17DC251CCE1000012FC2 /* ios_00757039_HW1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493E17DB251CCE1000012FC2 /* ios_00757039_HW1Tests.swift */; };
 		493E17E7251CCE1000012FC2 /* ios_00757039_HW1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493E17E6251CCE1000012FC2 /* ios_00757039_HW1UITests.swift */; };
+		493E17F8251CE7E900012FC2 /* 截圖 2020-09-24 下午9.43.04.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E17F7251CE7E900012FC2 /* 截圖 2020-09-24 下午9.43.04.png */; };
+		49889257252BCBDF00A52E82 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49889256252BCBDF00A52E82 /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		493E17E2251CCE1000012FC2 /* ios_00757039_HW1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_00757039_HW1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493E17E6251CCE1000012FC2 /* ios_00757039_HW1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_00757039_HW1UITests.swift; sourceTree = "<group>"; };
 		493E17E8251CCE1000012FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493E17F7251CE7E900012FC2 /* 截圖 2020-09-24 下午9.43.04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截圖 2020-09-24 下午9.43.04.png"; sourceTree = "<group>"; };
+		49889256252BCBDF00A52E82 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 			children = (
 				493E17C9251CCE0D00012FC2 /* ios_00757039_HW1App.swift */,
 				493E17CB251CCE0D00012FC2 /* ContentView.swift */,
+				49889256252BCBDF00A52E82 /* ContentView2.swift */,
 				493E17CD251CCE1000012FC2 /* Assets.xcassets */,
 				493E17D2251CCE1000012FC2 /* Info.plist */,
+				493E17F7251CE7E900012FC2 /* 截圖 2020-09-24 下午9.43.04.png */,
 				493E17CF251CCE1000012FC2 /* Preview Content */,
 			);
 			path = ios_00757039_HW1;
@@ -233,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493E17F8251CE7E900012FC2 /* 截圖 2020-09-24 下午9.43.04.png in Resources */,
 				493E17D1251CCE1000012FC2 /* Preview Assets.xcassets in Resources */,
 				493E17CE251CCE1000012FC2 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49889257252BCBDF00A52E82 /* ContentView2.swift in Sources */,
 				493E17CC251CCE0D00012FC2 /* ContentView.swift in Sources */,
 				493E17CA251CCE0D00012FC2 /* ios_00757039_HW1App.swift in Sources */,
 			);
